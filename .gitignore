@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb_checkpoints/
+
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dados grandes (não commitar dados brutos)
+data/raw/*.csv
+data/raw/*.zip
+data/processed/*.pkl
+data/processed/*.csv
+
+# Modelos treinados (podem ser grandes)
+models/*.pkl
+models/*.h5
+models/*.joblib
+models/*.pt
+models/*.pth
+
+# Submissões (geralmente não commitar)
+submissions/*.csv
+
+# Logs
+*.log
+logs/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Kaggle
+.kaggle/kaggle.json
+
+# Arquivos temporários
+*.tmp
+*.temp
+~$*
